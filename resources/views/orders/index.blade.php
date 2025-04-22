@@ -8,7 +8,6 @@
 <body>
     <h1>Daftar Pembelian Tiket</h1>
 
-    <!-- Menampilkan pesan sukses jika ada -->
     @if(session('success'))
         <div style="background-color: green; color: white; padding: 10px; margin-bottom: 20px;">
             {{ session('success') }}
